@@ -192,8 +192,9 @@
   line-height: normal;
 }
 
-.history{
+.history {
   margin-top: 166px;
+  padding-bottom: 200px;
 }
 
 .history-title {
@@ -202,7 +203,7 @@
   font-weight: 400;
   text-align: center;
   width: 444px;
-  margin-top:21px;
+  margin-top: 21px;
 }
 
 .history-title span {
@@ -232,7 +233,7 @@
   margin-right: 60px;
   text-align: center;
   font-size: 40px;
-  color: #BC9060;
+  color: #bc9060;
 }
 
 .number-item span {
@@ -243,4 +244,122 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+.history-images {
+  position: relative;
+  margin-right: 800px;
+}
+
+.history-holder {
+  display: flex;
+  justify-content: space-between;
+}
+
+.images1 {
+  position: absolute;
+  z-index: 0;
+  top: 54px;
+  left: 211px;
+}
+
+.images2 {
+  position: absolute;
+  z-index: 999;
+  top: -92px;
+  left: 383px;
+}
+
+.images3 {
+  position: absolute;
+  z-index: 999;
+  top: 241px;
+  left: 486px;
+}
+
+.black-block {
+  background-image: url(images/delicious-1866631_1920\ 1.jpg);
+  padding: 80px 0px;
+  background-repeat: no-repeat;
+  margin-top: 122px;
+  width: 100%;
+  background-size: cover;
+  box-shadow: 20px 0px 30px 3px rgba(0, 0, 0, 0.5);
+}
+
+.left-title {
+  color: #d67e34;
+  font-family: "Tinos", serif;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 28px;
+}
+
+.left-text {
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.right-btn {
+  background-color: #d67e34;
+  padding: 14px 28px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  transition: background-color 0.2s linear;
+}
+
+.right-btn:hover {
+  background-color: #bc9060;
+}
+
+.block-holder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dishes-title {
+  font-family: "Tinos", serif;
+  font-size: 54px;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 139px;
+}
+
+.dishes-title span {
+  color: #d67e35;
+}
+
+.burgers {
+  display: flex;
+  justify-content: center;
+}
+
+.burgers-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 29px;
+}
+
+.burgers-image {
+  margin-right: 20px;
+}
+
+.burger-text {
+  font-family: "Tinos", serif;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 20px;
 }
