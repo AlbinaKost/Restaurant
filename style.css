@@ -143,3 +143,104 @@
 .header-button:hover {
   background-color: #855d3c;
 }
+
+.card-holder {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  background-color: #fff;
+  box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+  width: 349px;
+  margin-right: 31px;
+  margin-top: -80px;
+  padding: 10px 10px;
+}
+
+.card-image {
+  display: flex;
+  justify-content: center;
+  padding-top: 31px;
+}
+
+.card-title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  font-family: "Tinos", serif;
+  font-size: 26px;
+  font-weight: 400;
+  color: #2c2c2c;
+  font-style: normal;
+  line-height: normal;
+}
+
+.card-title span {
+  color: #bc9060;
+  padding-left: 8px;
+}
+
+.card-desk {
+  text-align: center;
+  justify-content: center;
+  font-family: "Tinos", serif;
+  font-size: 26px;
+  font-weight: 400;
+  color: #656363;
+  font-style: normal;
+  line-height: normal;
+}
+
+.history{
+  margin-top: 166px;
+}
+
+.history-title {
+  font-family: "Tinos", serif;
+  font-size: 54px;
+  font-weight: 400;
+  text-align: center;
+  width: 444px;
+  margin-top:21px;
+}
+
+.history-title span {
+  color: #d67e35;
+}
+
+.history-desk {
+  color: #656363;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 444px;
+}
+
+.history-number {
+  display: flex;
+  width: 444px;
+  text-align: center;
+  margin-top: 40px;
+  margin-left: 30px;
+}
+
+.number-item {
+  margin-right: 60px;
+  text-align: center;
+  font-size: 40px;
+  color: #BC9060;
+}
+
+.number-item span {
+  display: block;
+  color: #000;
+  font-size: 20px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
