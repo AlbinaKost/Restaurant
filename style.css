@@ -369,7 +369,6 @@
   background-image: url(images/bar-1869656_1920\ 2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
- 
 }
 .menu {
   padding-bottom: 100px;
@@ -539,7 +538,7 @@
 
 .gallery-content {
   display: flex;
-  justify-content: center
+  justify-content: center;
 }
 
 .gallery-left {
@@ -593,6 +592,10 @@
   text-align: center;
 }
 
+.burger {
+  display: none;
+}
+
 @media (max-width: 1500px) {
   .gallery-content {
     display: block;
@@ -613,5 +616,115 @@
   .gallery-left {
     margin-right: 0;
   }
-  
 }
+
+@media (max-width: 1300px) {
+  .menu-items {
+    display: block;
+  }
+
+  .menu-item {
+    margin-bottom: 20px;
+    margin: 20px auto;
+    width: 350px;
+  }
+
+  .header-title {
+    position: static;
+  }
+
+  .cook-images {
+    display: block;
+  }
+
+  .cook-images img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
+
+  .block-holder {
+    display: block;
+  }
+
+  .left-title,
+  .left-text,
+  .right-button {
+    text-align: center;
+  }
+
+  .right-button {
+    margin-top: 30px;
+  }
+
+  .history-images {
+    display: none;
+  }
+
+  .history-title,
+  .history-desk,
+  .history-number {
+    width: auto;
+  }
+
+  /* .history-number{
+    margin-left: 240px;
+  } */
+}
+
+@media (max-width: 1180px) {
+
+  .burger {
+    display: block;
+  }
+
+  .nav,
+  .cart,
+  .phone,
+  .btn {
+    display: none;
+  }
+
+  .header-line {
+    justify-content: space-between;
+  }
+
+  .burgers-image{
+    display: none;
+  }
+}
+
+@media (max-width: 1000px) {
+
+  .card-holder {
+    display: block;
+  }
+
+  .card {
+    width: 100%;
+    margin-top: 30px;
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .history-holder{
+    display: block;
+  }
+
+  .img-gal-hight {
+    display: none;
+  }
+
+  .container {
+    margin: auto 20px;
+  }
+
+  .number-item {
+    font-size: 23px;
+  }
+}
+
+
