@@ -592,7 +592,7 @@
   text-align: center;
 }
 
-.burger {
+.burger-menu {
   display: none;
 }
 
@@ -666,18 +666,18 @@
   .history-desk,
   .history-number {
     width: auto;
-  }
+  } 
 
-  /* .history-number{
+   .history-number{
     margin-left: 240px;
-  } */
-}
+  } 
+ }
 
 @media (max-width: 1180px) {
 
-  .burger {
+   .burger-menu {
     display: block;
-  }
+  } 
 
   .nav,
   .cart,
