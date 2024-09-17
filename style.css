@@ -591,10 +591,30 @@
   color: #fff;
   text-align: center;
 }
-
-.burger-menu {
+ 
+ .burger-menu {
   display: none;
 }
+
+button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+
+
+.burger-slide {
+  position: absolute;
+}
+
+.disp {
+  display: none;
+} 
+
+
+
+
 
 @media (max-width: 1500px) {
   .gallery-content {
